@@ -24,7 +24,7 @@ public class SaveSystem : MonoBehaviour
     PlayerPrefs.DeleteKey(playerHealthKey);
     PlayerPrefs.DeleteKey(sceneKey);
     PlayerPrefs.DeleteKey(savePresentKey);
-    LoadedData = null; // Đảm bảo dữ liệu bị reset
+    LoadedData = null; 
     Debug.Log("Data reset successful");
 }
 

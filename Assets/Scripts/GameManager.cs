@@ -37,17 +37,25 @@ public class GameManager : MonoBehaviour
     }
 
     public void LoadLeve()
-{
-    Debug.Log("LoadedData: " + (saveSystem.LoadedData == null ? "null" : "exists"));
-
-    if (saveSystem.LoadedData != null)
     {
-        SceneManager.LoadScene(saveSystem.LoadedData.sceneIndex);
-        return;
+        Debug.Log("LoadedData: " + (saveSystem.LoadedData == null ? "null" : "exists"));
+
+        // Kiểm tra nếu LoadedData không tồn tại, bắt đầu lại từ màn đầu tiên
+        if (saveSystem.LoadedData == null)
+        {
+            SceneManager.LoadScene(1); // Bắt đầu lại từ màn đầu tiên
+        }
+        else
+        {
+            SceneManager.LoadScene(saveSystem.LoadedData.sceneIndex);
+        }
     }
 
-    SceneManager.LoadScene(1); // Bắt đầu lại từ màn đầu tiên nếu không có dữ liệu
-}
+    public void LoadFirstLevel()
+    {
+        saveSystem.ResetData(); // Xóa dữ liệu lưu để đảm bảo bắt đầu mới
+        SceneManager.LoadScene(1); // Tải màn đầu tiên (chỉ số 1)
+    }
 
 
     public void LoadNextLevel()
