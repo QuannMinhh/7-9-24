@@ -53,7 +53,7 @@ public class GameManager : MonoBehaviour
 
     public void LoadFirstLevel()
     {
-        saveSystem.ResetData(); // Xóa dữ liệu lưu để đảm bảo bắt đầu mới
+        //saveSystem.ResetData(); // Xóa dữ liệu lưu để đảm bảo bắt đầu mới
         SceneManager.LoadScene(1); // Tải màn đầu tiên (chỉ số 1)
     }
 

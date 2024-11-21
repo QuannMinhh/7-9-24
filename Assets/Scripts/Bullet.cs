@@ -7,22 +7,22 @@ public class Bullet : MonoBehaviour
 {
     public BulletData bulletData;
 
-    private Vector2 startPosition;
-    private float conquaredDistance = 0;
-    private Rigidbody2D rb2d;
+    private Vector2 startPosition; //vị trí ban đầu của đạn
+    private float conquaredDistance = 0;//khoảng cách đã di chuyển
+    private Rigidbody2D rb2d;// thành phần rigidbody2D để xử lí vật lí cho đạn
 
-    public UnityEvent OnHit = new UnityEvent();
+    public UnityEvent OnHit = new UnityEvent();//sự kiện khi đạn trúng đối tượng nào đó
 
     private void Awake()
     {
-        rb2d = GetComponent<Rigidbody2D>();
+        rb2d = GetComponent<Rigidbody2D>(); //lấy thành phần rigidbody2d của đạn để điều khiển vận tốc
     }
 
     public void Initialize(BulletData bulletData)
     {
         this.bulletData = bulletData;
         startPosition = transform.position;
-        rb2d.velocity = transform.up * this.bulletData.speed;
+        rb2d.velocity = transform.up * this.bulletData.speed;// thiết lập velocity của rb2s làm cho đạn di chuyển theo hướng trục y của nó 
     }
 
     private void Update()
