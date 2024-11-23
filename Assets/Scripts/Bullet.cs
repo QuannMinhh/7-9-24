@@ -21,34 +21,34 @@ public class Bullet : MonoBehaviour
     public void Initialize(BulletData bulletData)
     {
         this.bulletData = bulletData;
-        startPosition = transform.position;
+        startPosition = transform.position;//vị trí đầu tiên của đạn
         rb2d.velocity = transform.up * this.bulletData.speed;// thiết lập velocity của rb2s làm cho đạn di chuyển theo hướng trục y của nó 
     }
 
     private void Update()
     {
-        conquaredDistance = Vector2.Distance(transform.position, startPosition);
-        if (conquaredDistance >= bulletData.maxDistance)
+        conquaredDistance = Vector2.Distance(transform.position, startPosition);//biểu thức tính khoảng cách đã di chuyển
+        if (conquaredDistance >= bulletData.maxDistance)//nếu khoảng cách đã di chuyển lớn hơn hoạc bằng maxdistance
         {
-            DisableObject();
+            DisableObject();//hủy viên đạn
         }
     }
 
     private void DisableObject()
     {
-        rb2d.velocity = Vector2.zero;
-        gameObject.SetActive(false);
+        rb2d.velocity = Vector2.zero;//dừng hoạt động viên đạn
+        gameObject.SetActive(false);//vô hiệu hóa đối tượng
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        OnHit?.Invoke();
-        var damagable = collision.GetComponent<Damagable>();
-        if (damagable != null)
+        OnHit?.Invoke();//phát hiện va chạm
+        var damagable = collision.GetComponent<Damagable>();//kiểm tra đạn có va chạm với component kiểu damagable hay không
+        if (damagable != null)//nêu đối tượng va chạm với đạn có khả năng gây sát thương
         {
-            damagable.Hit(bulletData.damage);
+            damagable.Hit(bulletData.damage);//họi hàm Hit trong damageble và truyền sát thương từ viên đạn
         }
 
-        DisableObject();
+        DisableObject();//vô hiệu hóa đạn
     }
 }
