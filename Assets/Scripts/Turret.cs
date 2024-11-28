@@ -19,12 +19,12 @@ public class Turret : MonoBehaviour
     private int bulletPoolCount = 10;
 
     public UnityEvent OnShoot, OnCantShoot;
-    public UnityEvent<float> OnReloading;
+        public UnityEvent<float> OnReloading;
 
     private void Awake()
     {
-        tankColliders = GetComponentsInParent<Collider2D>();
-        bulletPool = GetComponent<ObjectPool>();
+        tankColliders = GetComponentsInParent<Collider2D>();//lấy tất cả thành phần của bản thân 
+        bulletPool = GetComponent<ObjectPool>();//tham chiếu đến objectPool của bản thân
     }
 
     private void Start()
@@ -35,9 +35,9 @@ public class Turret : MonoBehaviour
 
     private void Update()
     {
-        if (canShoot == false)
+        if (canShoot == false)//kiểm tra trạng thái bắn
         {
-            currentDelay -= Time.deltaTime;
+            currentDelay -= Time.deltaTime;//bắt đầu thời gian nạp lại
             OnReloading?.Invoke(currentDelay/ turretData.reloadDelay);
             if (currentDelay <= 0)
             {
@@ -53,26 +53,26 @@ public class Turret : MonoBehaviour
             canShoot = false;
             currentDelay = turretData.reloadDelay;
 
-            foreach (var barrel in turretBarrels)
+            foreach (var barrel in turretBarrels)//bắn số lượng đạn theo số tháp pháo của xe tăng
             {
-                var hit = Physics2D.Raycast(barrel.position, barrel.up);
+                var hit = Physics2D.Raycast(barrel.position, barrel.up);//kiểm tra va chạm từ vị trí theo hướng nòng pháo
                 if (hit.collider != null)
-                    Debug.Log(hit.collider.name);
+                    Debug.Log(hit.collider.name);//kiểm tra xem có vật thể nào đứng trước nòng pháo không
                 //GameObject bullet = Instantiate(bulletPrefab);
-                GameObject bullet = bulletPool.CreateObject();
-                bullet.transform.position = barrel.position;
-                bullet.transform.localRotation = barrel.rotation;
-                bullet.GetComponent<Bullet>().Initialize(turretData.bulletData);
+                GameObject bullet = bulletPool.CreateObject();//sinh đạn
+                bullet.transform.position = barrel.position;//đặt vị trí đạn tại đầu nòng
+                bullet.transform.localRotation = barrel.rotation;//xoay đạn theo hướng nòng súng
+                bullet.GetComponent<Bullet>().Initialize(turretData.bulletData);//truyền dữ liệu đạn
 
                 foreach (var collider in tankColliders)
                 {
-                    Physics2D.IgnoreCollision(bullet.GetComponent<Collider2D>(), collider);
+                    Physics2D.IgnoreCollision(bullet.GetComponent<Collider2D>(), collider);//loại bỏ va chạm với bản thân
                 }
 
             }
 
-            OnShoot?.Invoke();
-            OnReloading?.Invoke(currentDelay);
+            OnShoot?.Invoke();//sự kiện được gọi khi bắn
+            OnReloading?.Invoke(currentDelay);//cập nhật trạng thái nạp đạn
         }
         else
         {
