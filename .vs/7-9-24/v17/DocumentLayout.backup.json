@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "D:\\do an\\7-9-24\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{030146C8-4329-C702-139F-84C6F1CDFC7D}|Assembly-CSharp.csproj|d:\\do an\\7-9-24\\assets\\scripts\\playerinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{030146C8-4329-C702-139F-84C6F1CDFC7D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{030146C8-4329-C702-139F-84C6F1CDFC7D}|Assembly-CSharp.csproj|D:\\do an\\7-9-24\\assets\\scripts\\damagable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{030146C8-4329-C702-139F-84C6F1CDFC7D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\damagable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{030146C8-4329-C702-139F-84C6F1CDFC7D}|Assembly-CSharp.csproj|D:\\do an\\7-9-24\\assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{030146C8-4329-C702-139F-84C6F1CDFC7D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{030146C8-4329-C702-139F-84C6F1CDFC7D}|Assembly-CSharp.csproj|D:\\do an\\7-9-24\\assets\\scripts\\exitlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{030146C8-4329-C702-139F-84C6F1CDFC7D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\exitlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{030146C8-4329-C702-139F-84C6F1CDFC7D}|Assembly-CSharp.csproj|d:\\do an\\7-9-24\\assets\\scripts\\playerinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{030146C8-4329-C702-139F-84C6F1CDFC7D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{030146C8-4329-C702-139F-84C6F1CDFC7D}|Assembly-CSharp.csproj|D:\\do an\\7-9-24\\assets\\scripts\\objectpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{030146C8-4329-C702-139F-84C6F1CDFC7D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{030146C8-4329-C702-139F-84C6F1CDFC7D}|Assembly-CSharp.csproj|D:\\do an\\7-9-24\\assets\\scripts\\exitlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{030146C8-4329-C702-139F-84C6F1CDFC7D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\exitlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{030146C8-4329-C702-139F-84C6F1CDFC7D}|Assembly-CSharp.csproj|D:\\do an\\7-9-24\\assets\\scripts\\aimturret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{030146C8-4329-C702-139F-84C6F1CDFC7D}|Assembly-CSharp.csproj|D:\\do an\\7-9-24\\assets\\scripts\\destroyifdisabled.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{030146C8-4329-C702-139F-84C6F1CDFC7D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\destroyifdisabled.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{030146C8-4329-C702-139F-84C6F1CDFC7D}|Assembly-CSharp.csproj|D:\\do an\\7-9-24\\assets\\scripts\\damagable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{030146C8-4329-C702-139F-84C6F1CDFC7D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\damagable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{030146C8-4329-C702-139F-84C6F1CDFC7D}|Assembly-CSharp.csproj|D:\\do an\\7-9-24\\assets\\scripts\\objectgeneratorrandompositionutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,67 +62,6 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Damagable.cs",
-              "DocumentMoniker": "D:\\do an\\7-9-24\\Assets\\Scripts\\Damagable.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Damagable.cs",
-              "ToolTip": "D:\\do an\\7-9-24\\Assets\\Scripts\\Damagable.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Damagable.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAA9wCMAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T15:06:16.868Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Bullet.cs",
-              "DocumentMoniker": "D:\\do an\\7-9-24\\Assets\\Scripts\\Bullet.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Bullet.cs",
-              "ToolTip": "D:\\do an\\7-9-24\\Assets\\Scripts\\Bullet.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Bullet.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowCoAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T03:06:23.235Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "D:\\do an\\7-9-24\\Assets\\Scripts\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
-              "ToolTip": "D:\\do an\\7-9-24\\Assets\\Scripts\\GameManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAwwDcAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T13:45:54.443Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DestroyUtil.cs",
-              "DocumentMoniker": "D:\\do an\\7-9-24\\Assets\\Scripts\\DestroyUtil.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DestroyUtil.cs",
-              "ToolTip": "D:\\do an\\7-9-24\\Assets\\Scripts\\DestroyUtil.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DestroyUtil.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T13:49:21.442Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AimTurret.cs",
-              "DocumentMoniker": "D:\\do an\\7-9-24\\Assets\\Scripts\\AimTurret.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\AimTurret.cs",
-              "ToolTip": "D:\\do an\\7-9-24\\Assets\\Scripts\\AimTurret.cs",
-              "RelativeToolTip": "Assets\\Scripts\\AimTurret.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T13:45:33.901Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 9,
               "Title": "SaveSystem.cs",
               "DocumentMoniker": "D:\\do an\\7-9-24\\Assets\\Scripts\\SaveSystem.cs",
@@ -135,7 +74,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ExitLevel.cs",
               "DocumentMoniker": "D:\\do an\\7-9-24\\Assets\\Scripts\\ExitLevel.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ExitLevel.cs",
@@ -143,18 +82,17 @@
               "RelativeToolTip": "Assets\\Scripts\\ExitLevel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T03:35:02.57Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T03:35:02.57Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "PlayerInput.cs",
               "DocumentMoniker": "D:\\do an\\7-9-24\\Assets\\Scripts\\PlayerInput.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerInput.cs",
               "ToolTip": "D:\\do an\\7-9-24\\Assets\\Scripts\\PlayerInput.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerInput.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowDYAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-22T14:14:32.007Z",
               "EditorCaption": ""
@@ -173,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "DestroyIfDisabled.cs",
               "DocumentMoniker": "D:\\do an\\7-9-24\\Assets\\Scripts\\DestroyIfDisabled.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DestroyIfDisabled.cs",
@@ -193,7 +131,70 @@
               "RelativeToolTip": "Assets\\Scripts\\ObjectPool.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T14:14:24.936Z"
+              "WhenOpened": "2024-11-22T14:14:24.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "D:\\do an\\7-9-24\\Assets\\Scripts\\Bullet.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Bullet.cs",
+              "ToolTip": "D:\\do an\\7-9-24\\Assets\\Scripts\\Bullet.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Bullet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T03:06:23.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Damagable.cs",
+              "DocumentMoniker": "D:\\do an\\7-9-24\\Assets\\Scripts\\Damagable.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Damagable.cs",
+              "ToolTip": "D:\\do an\\7-9-24\\Assets\\Scripts\\Damagable.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Damagable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T15:06:16.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AimTurret.cs",
+              "DocumentMoniker": "D:\\do an\\7-9-24\\Assets\\Scripts\\AimTurret.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AimTurret.cs",
+              "ToolTip": "D:\\do an\\7-9-24\\Assets\\Scripts\\AimTurret.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AimTurret.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T13:45:33.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DestroyUtil.cs",
+              "DocumentMoniker": "D:\\do an\\7-9-24\\Assets\\Scripts\\DestroyUtil.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DestroyUtil.cs",
+              "ToolTip": "D:\\do an\\7-9-24\\Assets\\Scripts\\DestroyUtil.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DestroyUtil.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T13:49:21.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "D:\\do an\\7-9-24\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "D:\\do an\\7-9-24\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwDcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T13:45:54.443Z"
             },
             {
               "$type": "Document",

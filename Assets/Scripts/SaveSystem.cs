@@ -19,14 +19,14 @@ public class SaveSystem : MonoBehaviour
         var result = LoadData();//kiểm tra và tải dữ liệu
         OnDataLoadedResult?.Invoke(result);//kết quả true/false sẽ được gủi nếu sự kiện được gán(?. là kiểm tra null)
     }
-//    public void ResetData()
-//{
-//    PlayerPrefs.DeleteKey(playerHealthKey); //lưu trữ lượng máu
-//    PlayerPrefs.DeleteKey(sceneKey); //lưu số cảnh hiện tại
-//    PlayerPrefs.DeleteKey(savePresentKey); //đánh dấu dữ liệu được ghi
-//    LoadedData = null; 
-//    Debug.Log("Data reset successful");
-//}
+    public void ResetData()
+    {
+        PlayerPrefs.DeleteKey(playerHealthKey); //lưu trữ lượng máu
+        PlayerPrefs.DeleteKey(sceneKey); //lưu số cảnh hiện tại
+        PlayerPrefs.DeleteKey(savePresentKey); //đánh dấu dữ liệu được ghi
+        LoadedData = null;
+        Debug.Log("Data reset successful");
+    }
 
 
     public bool LoadData()
